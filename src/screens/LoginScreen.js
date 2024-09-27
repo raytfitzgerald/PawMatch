@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { View, TextInput, Button, StyleSheet, Text, ImageBackground } from 'react-native';
+import { View, TextInput, Button, StyleSheet, Text } from 'react-native';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../config/firebase';
+import BackgroundWrapper from '../components/BackgroundWrapper';
 
 function LoginScreen({ navigation }) {
   const [email, setEmail] = useState('');
@@ -13,10 +14,7 @@ function LoginScreen({ navigation }) {
   };
 
   return (
-    <ImageBackground
-      source={{ uri: 'https://img.freepik.com/premium-photo/cute-dog-wallpaper_965126-16.jpg' }}
-      style={styles.backgroundImage}
-    >
+    <BackgroundWrapper>
       <View style={styles.container}>
         <Text style={styles.logo}>PawMatch</Text>
         <View style={styles.inputContainer}>
@@ -47,15 +45,11 @@ function LoginScreen({ navigation }) {
           />
         </View>
       </View>
-    </ImageBackground>
+    </BackgroundWrapper>
   );
 }
 
 const styles = StyleSheet.create({
-  backgroundImage: {
-    flex: 1,
-    resizeMode: 'cover',
-  },
   container: {
     flex: 1,
     justifyContent: 'center',

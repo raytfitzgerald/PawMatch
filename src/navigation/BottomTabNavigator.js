@@ -18,8 +18,8 @@ function BottomTabNavigator() {
         tabBarInactiveTintColor: 'gray',
       })}
     >
-      <Tab.Screen name="Home" component={HomeScreen} />
       <Tab.Screen name="Profile" component={DogProfileScreen} />
+      <Tab.Screen name="Home" component={HomeScreen} />
       <Tab.Screen name="Matches" component={MatchScreen} />
     </Tab.Navigator>
   );

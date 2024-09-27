@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { View, StyleSheet, PanResponder, Animated } from 'react-native';
 import DogCard from '../components/DogCard';
+import BackgroundWrapper from '../components/BackgroundWrapper';
 
 const SWIPE_THRESHOLD = 120;
 
@@ -110,7 +111,11 @@ function HomeScreen() {
     );
   };
 
-  return <View style={styles.container}>{renderCurrentDog()}</View>;
+  return (
+    <BackgroundWrapper>
+      <View style={styles.container}>{renderCurrentDog()}</View>
+    </BackgroundWrapper>
+  );
 }
 
 const styles = StyleSheet.create({
