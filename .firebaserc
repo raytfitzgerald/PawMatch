@@ -1,0 +1,10 @@
+{
+  "projects": {
+    "default": "pawmatch-f1f87"
+  },
+  "dataconnectEmulatorConfig": {
+    "postgres": {
+      "localConnectionString": "postgresql://localhost:5432?sslmode=disable"
+    }
+  }
+}

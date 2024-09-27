@@ -1,0 +1,17 @@
+npm verbose cli /usr/local/bin/node /usr/local/bin/npm
+npm info using npm@10.8.2
+npm info using node@v20.17.0
+npm verbose title npm install
+npm verbose argv "install" "--legacy-peer-deps" "--loglevel" "verbose"
+npm verbose logfile logs-max:10 dir:/Users/rayfitzgerald/.npm/_logs/2024-09-27T17_00_01_698Z-
+npm verbose logfile /Users/rayfitzgerald/.npm/_logs/2024-09-27T17_00_01_698Z-debug-0.log
+
+up to date, audited 1 package in 716ms
+
+found 0 vulnerabilities
+npm verbose cwd /Users/rayfitzgerald/PawMatch/tmpBstackPackages
+npm verbose os Darwin 22.6.0
+npm verbose node v20.17.0
+npm verbose npm  v10.8.2
+npm verbose exit 0
+npm info ok

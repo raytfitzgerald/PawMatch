@@ -1,0 +1,11 @@
+specVersion: "v1beta"
+serviceId: "app"
+location: "northamerica-northeast1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "app-fdc"
+connectorDirs: ["./connector"]
