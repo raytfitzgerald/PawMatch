@@ -1,0 +1,9 @@
+12:59:53.070 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+12:59:53.399 [main] INFO com.firebase.server.forge.App$ - Listening at 127.0.0.1:9000
+13:00:11.601 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO com.firebase.core.namespace.NamespaceActor - pawmatch-f1f87-default-rtdb successfully activated FBKV (SurveyIdle(0)) wait: 203ms, init: 0ms
+13:00:11.694 [NamespaceSystem-blocking-namespace-operation-dispatcher-6] INFO com.firebase.core.namespace.StateManager - Namespace pawmatch-f1f87-default-rtdb status Active to Active
+13:23:08.967 [FirebaseWorkerPool-1-3] WARN com.firebase.core.persistence.backend.dummy.EmulatorMetadataPersistence - Multiple projectIds are not recommended in single project mode. Requested 
+namespace pawmatch-f1f87, but the emulator is configured for pawmatch-f1f87-default-rtdb. To 
+opt-out of single project mode add/set the singleProjectMode: false property in 
+the firebase.json emulators config. 
+13:23:08.980 [NamespaceSystem-akka.actor.default-dispatcher-8] INFO com.firebase.core.namespace.NamespaceActor - pawmatch-f1f87 successfully activated FBKV (SurveyIdle(0)) wait: 9ms, init: 0ms

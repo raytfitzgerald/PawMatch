@@ -1,4 +1,4 @@
-/**
+inde/**
  * Import function triggers from their respective submodules:
  *
  * const {onCall} = require("firebase-functions/v2/https");

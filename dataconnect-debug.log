@@ -1,0 +1,10 @@
+I0929 13:00:06.321929   19284 load.go:37] Reloading schema and connectors...
+I0929 13:00:06.336158   19284 control.go:45] [engine.Service /emulator/app a188] UpdateSchema(): done sources: schema/schema.gql [1384B] 
+I0929 13:00:06.344858   19284 control.go:73] [engine.Service /emulator/app a188] UpdateConnector(default): done sources: connector/mutations.gql [1163B] connector/queries.gql [1873B] 
+I0929 13:00:06.372584   19284 collector.go:107] schema extensions wrote into "/Users/rayfitzgerald/PawMatch/dataconnect/.dataconnect/schema"
+Generated sources: prelude.gql [59310B] 
+I0929 13:00:06.372692   19284 load.go:96] Finished reloading
+I0929 13:00:06.372936   19284 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:9399
+I0929 13:00:06.373477   19284 dev.go:95] Listening on address (HTTP + gRPC): [::1]:9399
+I0929 13:00:07.738256   19284 control.go:45] [engine.Service /emulator/app eb77] UpdateSchema(): done sources: schema/schema.gql [1384B] 
+I0929 13:00:07.738389   19284 control.go:73] [engine.Service /emulator/app eb77] UpdateConnector(default): done sources: connector/mutations.gql [1163B] connector/queries.gql [1873B] 
